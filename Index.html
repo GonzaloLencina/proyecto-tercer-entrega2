@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Conversor de Divisas</h1>
+        </header>
+        <main>
+            <section id="conversor" class="conversor">
+                <form id="formConversor" data-aos="fade-up" data-aos-duration="2000" class="conversor__form">
+                    <input id="inputCantidad" class="conversor__input" type="number" placeholder="Ingresa la cantidad a convertir!">
+                    <div class="conversor__submit">
+                        <input id="submitDolar" type="submit" value="Dolar">
+                        <input id="submitDivisas" type="submit" value="+Divisas">
+                        <input id="submitPeso" type="submit" value="Peso">
+                    </div>
+                    <div>
+                        <h5 id="paridad">USD - ARS</h5>
+                        <p id="alertaCompleta" class="alertas"></p>
+                    </div>
+                    <div class="conversor__divisas">
+                        <h4 id="divisaDolarOficial">Oficial</h4>
+                        <h4 id="valorDolarOficial">$0,00</h4>
+                    </div>
+                    <div class="conversor__divisas">
+                        <h4 id="divisaDolarBlue">Blue</h4>
+                        <h4 id="valorDolarBlue">$0,00</h4>
+                    </div>
+                    <div class="conversor__divisas">
+                        <h4 id="divisaDolarTarjeta">Tarjeta</h4>
+                        <h4 id="valorDolarTarjeta">$0,00</h4>
+                    </div>
+                    <div class="conversor__divisas">
+                        <h4 id="divisaDolarCCL">CCL</h4>
+                        <h4 id="valorDolarCCL">$0,00</h4>
+                    </div>
+                    <div class="conversor__divisas">
+                        <h4 id="divisaDolarMEP">MEP</h4>
+                        <h4 id="valorDolarMEP">$0,00</h4>
+                    </div>
+                    <div class="conversor__divisas">
+                        <h4 id="divisaDolarMayorista">Mayorista</h4>
+                        <h4 id="valorDolarMayorista">$0,00</h4>
+                    </div>
+                </form>
+                <div id="historialContainer">
+                </div>
+                <button id="agregarConversionAlHistorial">Guardar en Historial</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,123 @@
+body, h1, h2, h3, h4, h5, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conversor__form {
+    text-align: center;
+  }
+  
+  .conversor__input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .conversor__submit {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .conversor__submit input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .conversor__divisas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .conversor__divisas h4 {
+    font-size: 18px;
+  }
+  
+  .conversor__divisas h4#divisaDolarOficial {
+    color: #007bff;
+  }
+  
+  .conversor__divisas h4#divisaDolarBlue {
+    color: #ff5722;
+  }
+  
+  .conversor__divisas h4#divisaDolarTarjeta {
+    color: #4caf50;
+  }
+  
+  .conversor__divisas h4#divisaDolarCCL {
+    color: #ff9800;
+  }
+  
+  .conversor__divisas h4#divisaDolarMEP {
+    color: #9c27b0;
+  }
+  
+  .conversor__divisas h4#divisaDolarMayorista {
+    color: #2196f3;
+  }
+  
+  #paridad {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .alertas {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  #historialContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #f5f5f5;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  #historialContainer p {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+  }
+  
+  #historialContainer p:last-child {
+    border-bottom: none;
+  }
+  
